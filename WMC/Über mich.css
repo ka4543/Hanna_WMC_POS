@@ -1,0 +1,22 @@
+/* Hintergrund: links hellblau, rechts hellrot */
+body {
+    background: linear-gradient(to right, lightblue 50%, lightcoral 50%);
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Name in Blau */
+.name {
+    color: blue;
+}
+
+/* Alter in Rot */
+.age {
+    color: red;
+}
+
+/* Hobbys mit gelbem Hintergrund */
+.hobbies {
+    background-color: yellow;
+    padding: 5px;
+}
