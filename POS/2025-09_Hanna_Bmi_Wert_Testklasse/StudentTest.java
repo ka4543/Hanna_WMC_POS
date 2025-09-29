@@ -76,6 +76,6 @@ public class StudentTest
     @AfterEach
     public void tearDown()
     {
-        System.out.println("SetUp");
+        System.out.println("tearDown");
     }
 }

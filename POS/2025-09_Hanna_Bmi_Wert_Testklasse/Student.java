@@ -1,7 +1,8 @@
 public class Student {
 
     private String vorname;   // Name Student 
-    private float kg;      // Gewicht in Kilogramm kommaZahl
+
+    private float kg;      // Gewicht in Kilogramm kommaZahl    
     private int cm;        // Größe in Zentimeter GanzZahl
     private char gender;   // Geschlecht
 
@@ -18,14 +19,14 @@ public class Student {
         }
         this.vorname=vorname;
     }
-  
+
     public void setKg(float kg){
         if(kg < 2f || kg > 550f){
             throw new IllegalArgumentException("Masse muss zwi. 2-550 sein");
         }
         this.kg=kg;
     }
-    
+
     public void setCm(int cm){
         if(cm <50 || cm > 230){
             throw new IllegalArgumentException("Groesse muss zwi. 50- 230 sein");
@@ -34,9 +35,14 @@ public class Student {
         System.out.println ("Deine Groessse beträgt " + this.cm +" cm") ;
 
     }
-    public void setGender(char gender) {
-        
-        this.gender = gender;
+
+    public void setGender(char genderCase) {
+        genderCase= Character.toLowerCase(genderCase);
+        if( genderCase != 'm' && genderCase !='f'){
+            throw new IllegalArgumentException("Gender muss M oder F sein");
+        }
+
+        this.gender = genderCase;
     }
 
     public float bmi() {
@@ -46,8 +52,10 @@ public class Student {
 
     public String mannOderFrau() {
         // wir vergleichen den Buchstaben
-        if (this.gender == 'm' || this.gender == 'M') return "männlich";  
-        if (this.gender == 'f' || this.gender == 'F') return "weiblich";  
+        if (this.gender == 'm' )
+            return "männlich";  
+        if (this.gender == 'f' ) 
+            return "weiblich"; 
 
         return "Bitte gültige Daten eingeben!";
     }
@@ -74,9 +82,9 @@ public class Student {
 
     public String printStudent() {
         return "Name: " + this.vorname
-            + " (" + this.mannOderFrau() + "), "
-            + this.kg + "kg, "
-            + this.cm + "cm ("
-            + this.BmiKlasse() + ")";
+        + " (" + this.mannOderFrau() + "), "
+        + this.kg + "kg, "
+        + this.cm + "cm ("
+        + this.BmiKlasse() + ")";
     }
 }
