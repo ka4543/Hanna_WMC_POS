@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Quadrat
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ quadart.\r\n\ \r\n\ @author\ (Ihr\ Name)\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
+comment1.params=hoehe\ breite
+comment1.target=void\ rechteck(int,\ int)
+comment2.params=kante
+comment2.target=void\ quadrat(int)
+numComments=3
