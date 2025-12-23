@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6a02b371-341f-4b40-92e5-1e37a1c0b091" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Christbaum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2025-09_18_Hanna/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2025-09_18_Hanna/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2025-09_Hanna_Bmi_Wert-copy/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/../2025-09_Hanna_Bmi_Wert-copy/package.bluej" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2025-09_Hanna_Bmi_Wert_Testklasse/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/../2025-09_Hanna_Bmi_Wert_Testklasse/package.bluej" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Freiwillige_Uebung/.idea/vcs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hanna_WMC_POS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KamelSchleife-copy/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/../KamelSchleife-copy/package.bluej" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Matrizen/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Matrizen/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Netzwerk_Website_Hanna/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Netzwerk_Website_Hanna/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Netzwerk_Website_Hanna/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Netzwerk_Website_Hanna/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Netzwerk_Website_Hanna/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Netzwerk_Website_Hanna/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Netzwerk_Website_Hanna/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Netzwerk_Website_Hanna/Website/Netzwerk_Website_Hanna.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Netzwerk_Website_Hanna/Website/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Netzwerk_Website_Hanna/Website/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Netzwerk_Website_Hanna/img/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Netzwerk_Website_Hanna/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Netzwerk_Website_Hanna/site.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pegelstand/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pegelstand/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pegelstand/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pegelstand/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt_AUTO-copy/Autobus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt_AUTO-copy/Autobus.ctxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt_AUTO-copy/Autobus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt_AUTO-copy/AutobusTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt_AUTO-copy/AutobusTest.ctxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt_AUTO-copy/AutobusTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt_AUTO-copy/CopyofAutobus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt_AUTO-copy/CopyofAutobus.ctxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt_AUTO-copy/CopyofAutobus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt_AUTO-copy/CopyofAutobusTestNeu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt_AUTO-copy/CopyofPerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt_AUTO-copy/CopyofPerson.ctxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt_AUTO-copy/CopyofPerson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt_AUTO-copy/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt_AUTO-copy/Person.ctxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt_AUTO-copy/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Projekt_AUTO-copy/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt_AUTO-copy/Schleife.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt_AUTO-copy/Schleife.ctxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt_AUTO-copy/Schleife.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt_AUTO-copy/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt_AUTO-copy/Solution.ctxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt_AUTO-copy/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projekt_AUTO-copy/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/../Projekt_AUTO-copy/package.bluej" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SAMMAN/FizzAufgabe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SAMMAN/FizzAufgabe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SAMMAN/Quadrat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SAMMAN/Quadrat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Übung_Signatur_Hanna.odt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="37GWRDBjTkHo97TCGZ9e4qOkUN7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Christbaum.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/kamel/OneDrive - HTL Spengergasse/Git-Cloud/Hanna_WMC_POS/POS/Christbaum/src/main/java/org/example/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28238.7" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a02b371-341f-4b40-92e5-1e37a1c0b091" name="Changes" comment="" />
+      <created>1766529880653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766529880653</updated>
+      <workItem from="1766529881875" duration="183000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
