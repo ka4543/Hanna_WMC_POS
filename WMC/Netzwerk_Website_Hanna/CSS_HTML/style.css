@@ -1,0 +1,109 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background-color: black;
+  color: #e0e0e0;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+#navi-leiste {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 5%;
+  background: rgba(5,5,5,0.95);
+  position: sticky; top: 0; z-index: 1000;
+}
+
+.firmen-logo { font-size: 1.5rem; letter-spacing: 4px; font-weight: 800; }
+.firmen-logo span { color: gold; }
+
+.klick-mich { display: flex; list-style: none; gap: 40px; align-items: center; }
+.klick-mich a { text-decoration: none; color: #fff; font-size: 0.85rem; text-transform: uppercase; transition: 0.3s; }
+.klick-mich a:hover { color: gold; }
+.gold-kante { border: 1px solid gold; padding: 10px 20px; }
+
+.standard {
+  display: flex;
+  padding: 100px 10%;
+  min-height: 85vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text-gelaber { flex: 1; padding-right: 50px; min-width: 350px; }
+.ansage { color: darkgoldenrod; font-size: 0.9rem; letter-spacing: 3px; font-weight: bold; }
+.text-gelaber h1 { font-size: 4.5rem; line-height: 1.1; margin: 20px 0; color: #fff; }
+
+.boss-button {
+  background: darkgoldenrod;
+  color: #000;
+  border: none;
+  padding: 18px 40px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.boss-button:hover { background: gold; transform: scale(1.05); }
+
+.bild-kiste { flex: 1; position: relative; min-width: 350px; }
+#das-bild img { width: 100%; filter: grayscale(1) contrast(1.2); border-left: 4px solid darkgoldenrod; }
+
+.hover {
+  position: absolute;
+  top: -20px; right: -20px;
+  background: #1a1a1a;
+  padding: 25px;
+  border: 1px solid darkgoldenrod;
+  z-index: 10;
+}
+
+.zahlen-block {
+  display: flex;
+  background: #000;
+  padding: 60px 10%;
+  justify-content: space-between;
+  border-top: 1px solid grey;
+}
+
+.fette-zahl h3 { color: darkgoldenrod; font-size: 2.5rem; }
+
+.zahl-bereich {
+  display: flex;
+  gap: 20px;
+  padding: 100px 10%;
+  flex-wrap: wrap;
+}
+
+.zahl{
+  flex: 1;
+  background: #1a1a1a;
+  padding: 50px;
+  min-width: 250px;
+  border-bottom: 2px solid transparent;
+  transition: 0.4s;
+}
+
+.zahl:hover { background: #222; border-color: darkgoldenrod; transform: translateY(-15px); }
+.nummer { color: darkgoldenrod; font-weight: bold; margin-bottom: 20px; }
+
+.unten-rum {
+  background-color: #050505;
+  padding: 80px 10% 20px 10%;
+  border-top: 1px solid grey;
+  text-align: center;
+}
+
+.footer-kram h4 { color: darkgoldenrod; text-transform: uppercase; margin-bottom: 20px; }
+.footer-links { list-style: none; }
+.footer-links a { text-decoration: none; color: #888; font-size: 0.85rem; }
+.footer-links a:hover { color: darkgoldenrod; }
+
+@media (max-width: 1024px) {
+  .mega-show { flex-direction: column; text-align: center; }
+  .text-gelaber { padding-right: 0; margin-bottom: 60px; }
+  .text-gelaber h1 { font-size: 3rem; }
+  .zahlen-block { flex-direction: column; gap: 30px; }
+}
