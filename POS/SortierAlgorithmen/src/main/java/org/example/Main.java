@@ -7,7 +7,7 @@ public class AllSort {
 
         selectionSort(data.clone());
 
-      
+
         insertionSort(data.clone());
     }
 
