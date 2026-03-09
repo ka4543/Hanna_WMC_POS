@@ -15,7 +15,8 @@ public class Main {
         System.out.println();
         System.out.println(personalbuero.aufnehmen(mitarbeiter));
         System.out.println(personalbuero);
-        Mitarbeiter mitarbeiter1 = new Mitarbeiter("Hanna", Year.of(2002), Year.now());
+
+        Mitarbeiter1 = new Mitarbeiter("Hanna", Year.of(2002), Year.now());
         personalbuero.aufnehmen(mitarbeiter1);
         personalbuero.aufnehmen(mitarbeiter1);
         System.out.println(personalbuero);

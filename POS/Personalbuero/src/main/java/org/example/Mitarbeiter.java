@@ -2,7 +2,8 @@ package org.example;
 
 import java.time.Year;
 
-public class Mitarbeiter {
+public abstract class Mitarbeiter
+{
 
     private String name;
     private Year gebJahr;
@@ -88,15 +89,17 @@ public class Mitarbeiter {
     }
 
 
+//wichtig für plü
 
+//abstract ->muss immer ganze klasse sein
+// immer ; nach abstracht kein {}
 
+/*
 
-
-
-
-
-
-
+funktion interface-> beschreibt nur eine methode
+naturliche ordnung-> alphabetisch und bei zahlen aufsteigend-> comperable mit compareTo
+class instanzieren-> interface implemtieren mit implements
+bei override methode mit gleichen namen muss man den datentyp achten -> beim testen zb string bei null2*/
 
 
 
