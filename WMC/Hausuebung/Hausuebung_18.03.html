@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Hausübung DOM</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding-top: 50px; }
+        #counter { font-size: 3rem; display: block; margin: 20px; }
+        button { padding: 10px 20px; font-size: 1rem; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <h1 id="title">DOM-Manipulation</h1>
+    
+    <span id="counter">0</span>
+
+    <button id="btn-plus">+</button>
+    <button id="btn-minus">-</button>
+    <button id="btn-reset">RESET</button>
+    <button id="btn-color">ZUFALL</button>
+
+    <script>
+        // Elemente auswählen
+        const title = document.getElementById('title');
+        const counterDisplay = document.getElementById('counter');
+        const btnPlus = document.getElementById('btn-plus');
+        const btnMinus = document.getElementById('btn-minus');
+        const btnReset = document.getElementById('btn-reset');
+        const btnColor = document.getElementById('btn-color');
+
+        let count = 0;
+
+        // Aufgabe 1 & 3: Zähler-Logik mit addEventListener
+        btnPlus.addEventListener('click', () => {
+            count++;
+            counterDisplay.textContent = count;
+        });
+
+        btnMinus.addEventListener('click', () => {
+            count--;
+            counterDisplay.textContent = count;
+        });
+
+        btnReset.addEventListener('click', () => {
+            count = 0;
+            counterDisplay.textContent = count;
+        });
+
+        // Aufgabe 2: Zufallsfarbe für die Überschrift
+        btnColor.addEventListener('click', () => {
+            const r = Math.floor(Math.random() * 256);
+            const g = Math.floor(Math.random() * 256);
+            const b = Math.floor(Math.random() * 256);
+            
+            title.style.color = `rgb(${r}, ${g}, ${b})`;
+        });
+    </script>
+
+</body>
+</html>
